@@ -1,0 +1,1874 @@
+DUALIS|1|1|ae96ea53
+{
+  "scriptMin": "1.0.0",
+  "publie": 26265600,
+  "univers": {
+    "nom": "Feltsura",
+    "langues": [
+      "fr"
+    ],
+    "theme": {
+      "cadre": 0,
+      "police": 1,
+      "fond": "#1E1A16",
+      "texte": "#F2E8D5",
+      "accent": "#C9A227",
+      "bordure": "#6B5532"
+    },
+    "monnaie": {
+      "nom": "Couronne",
+      "symbole": "¢",
+      "surSoi": "Pièces",
+      "banque": "Coffre",
+      "unites": [
+        {
+          "nom": "sou",
+          "valeur": 1
+        },
+        {
+          "nom": "couronne",
+          "valeur": 100
+        }
+      ],
+      "depart": 5000,
+      "plafondSurSoi": 0,
+      "poidsParTranche": 0,
+      "perteMort": 0
+    },
+    "modules": {
+      "banque": true,
+      "echange": true,
+      "marche": true,
+      "metiers": true,
+      "quetes": true,
+      "carte": true,
+      "hautsFaits": true,
+      "dialogues": true,
+      "des": true,
+      "blessures": true,
+      "marchands": true,
+      "quotidien": true,
+      "plaqueRP": true,
+      "meteo": true,
+      "combat": false
+    },
+    "vocab": {
+      "menu.journal": "Journal d'aventure",
+      "menu.sac": "Sac à dos",
+      "menu.marche": "Hôtel des ventes",
+      "menu.passeport": "Passeport de voyage"
+    },
+    "stats": [
+      {
+        "id": 1,
+        "nom": "Force",
+        "depart": 5,
+        "parNiveau": 1
+      },
+      {
+        "id": 2,
+        "nom": "Agilité",
+        "depart": 5,
+        "parNiveau": 1
+      },
+      {
+        "id": 3,
+        "nom": "Endurance",
+        "depart": 5,
+        "parNiveau": 1
+      },
+      {
+        "id": 4,
+        "nom": "Intelligence",
+        "depart": 5,
+        "parNiveau": 1
+      },
+      {
+        "id": 5,
+        "nom": "Charisme",
+        "depart": 5,
+        "parNiveau": 1
+      }
+    ],
+    "repartitionDepart": 5,
+    "niveaux": {
+      "max": 50,
+      "xpBase": 100,
+      "xpFacteur": 1.15
+    },
+    "categories": [
+      {
+        "id": 1,
+        "nom": "Arme"
+      },
+      {
+        "id": 2,
+        "nom": "Armure"
+      },
+      {
+        "id": 3,
+        "nom": "Outil"
+      },
+      {
+        "id": 4,
+        "nom": "Ressource"
+      },
+      {
+        "id": 5,
+        "nom": "Consommable"
+      },
+      {
+        "id": 6,
+        "nom": "Recette"
+      },
+      {
+        "id": 7,
+        "nom": "Clé"
+      },
+      {
+        "id": 8,
+        "nom": "Divers"
+      }
+    ],
+    "raretes": [
+      {
+        "id": 1,
+        "nom": "Commun",
+        "couleur": "#B0B0B0"
+      },
+      {
+        "id": 2,
+        "nom": "Peu commun",
+        "couleur": "#4CAF50"
+      },
+      {
+        "id": 3,
+        "nom": "Rare",
+        "couleur": "#3D7BE0"
+      },
+      {
+        "id": 4,
+        "nom": "Épique",
+        "couleur": "#9C4DE0"
+      },
+      {
+        "id": 5,
+        "nom": "Légendaire",
+        "couleur": "#E5A23A"
+      }
+    ],
+    "equipement": [
+      {
+        "id": 1,
+        "nom": "Tête"
+      },
+      {
+        "id": 2,
+        "nom": "Torse"
+      },
+      {
+        "id": 3,
+        "nom": "Mains"
+      },
+      {
+        "id": 4,
+        "nom": "Jambes"
+      },
+      {
+        "id": 5,
+        "nom": "Arme"
+      },
+      {
+        "id": 6,
+        "nom": "Outil"
+      },
+      {
+        "id": 7,
+        "nom": "Accessoire"
+      }
+    ],
+    "stations": [
+      {
+        "id": 1,
+        "nom": "Forge"
+      },
+      {
+        "id": 2,
+        "nom": "Établi"
+      },
+      {
+        "id": 3,
+        "nom": "Table d'alchimie"
+      },
+      {
+        "id": 4,
+        "nom": "Feu de camp"
+      }
+    ],
+    "factions": [
+      {
+        "id": 1,
+        "nom": "Guilde des artisans",
+        "min": -1000,
+        "max": 1000
+      },
+      {
+        "id": 2,
+        "nom": "Garde de Feltsura",
+        "min": -1000,
+        "max": 1000
+      }
+    ],
+    "inventaire": {
+      "cases": 40,
+      "casesMax": 100,
+      "poidsMax": 0
+    },
+    "metiersMax": 3,
+    "quetesActivesMax": 20,
+    "echange": {
+      "niveauMin": 1,
+      "distanceMax": 3,
+      "montantMax": 0
+    },
+    "marche": {
+      "ecart": 20,
+      "fourchette": 15,
+      "cycle": 604800,
+      "taxe": 2,
+      "commission": 5,
+      "annoncesMax": 10,
+      "dureeMax": 604800,
+      "plafondJour": 50,
+      "offresFantomes": true,
+      "prixParMap": false
+    },
+    "banque": {
+      "fraisDepot": 0,
+      "fraisRetrait": 0
+    },
+    "passeport": {
+      "argent": true,
+      "inventaire": true,
+      "equipement": true,
+      "metiers": true,
+      "quetes": true,
+      "teleports": true
+    },
+    "quotidien": {
+      "heure": 6,
+      "fuseau": "Europe/Paris",
+      "serieMax": 7,
+      "recompenses": [
+        {
+          "jour": 1,
+          "argent": 100
+        },
+        {
+          "jour": 2,
+          "argent": 150
+        },
+        {
+          "jour": 3,
+          "objets": [
+            [
+              301,
+              2
+            ]
+          ]
+        },
+        {
+          "jour": 4,
+          "argent": 250
+        },
+        {
+          "jour": 5,
+          "objets": [
+            [
+              302,
+              1
+            ]
+          ]
+        },
+        {
+          "jour": 6,
+          "argent": 400
+        },
+        {
+          "jour": 7,
+          "objets": [
+            [
+              303,
+              1
+            ]
+          ],
+          "argent": 500
+        }
+      ],
+      "quetesDuJour": 3
+    },
+    "plaqueRP": {
+      "active": true,
+      "couleur": "#F2E8D5",
+      "distance": 10
+    },
+    "reglement": {
+      "version": 1,
+      "texte": "Bienvenue à Feltsura. Respecte le RP des autres, pas de métagaming, le HRP se signale sur la plaque. Le règlement complet est sur le Discord."
+    }
+  },
+  "objets": [
+    {
+      "id": 1,
+      "nom": "Minerai de fer",
+      "desc": "Un bloc de roche veiné de fer.",
+      "icone": [
+        1,
+        0
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 99,
+      "prix": 15
+    },
+    {
+      "id": 2,
+      "nom": "Charbon",
+      "desc": "Nourrit le feu de la forge.",
+      "icone": [
+        1,
+        1
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 99,
+      "prix": 8
+    },
+    {
+      "id": 3,
+      "nom": "Bûche de chêne",
+      "desc": "Du bois dur et sec.",
+      "icone": [
+        1,
+        2
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 99,
+      "prix": 10
+    },
+    {
+      "id": 4,
+      "nom": "Lingot de fer",
+      "desc": "Fer fondu et affiné.",
+      "icone": [
+        1,
+        3
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 50,
+      "prix": 60
+    },
+    {
+      "id": 5,
+      "nom": "Planche",
+      "desc": "Bois taillé prêt à l'emploi.",
+      "icone": [
+        1,
+        4
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 50,
+      "prix": 25
+    },
+    {
+      "id": 6,
+      "nom": "Feuille de sauge",
+      "desc": "Herbe médicinale commune.",
+      "icone": [
+        1,
+        5
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 99,
+      "prix": 6
+    },
+    {
+      "id": 7,
+      "nom": "Fleur de lune",
+      "desc": "Ne s'ouvre que la nuit.",
+      "icone": [
+        1,
+        6
+      ],
+      "cat": 4,
+      "rarete": 3,
+      "pile": 20,
+      "prix": 120
+    },
+    {
+      "id": 8,
+      "nom": "Fiole vide",
+      "desc": "Verre soufflé à Feltsura.",
+      "icone": [
+        1,
+        7
+      ],
+      "cat": 4,
+      "rarete": 1,
+      "pile": 50,
+      "prix": 5
+    },
+    {
+      "id": 101,
+      "nom": "Pioche de fer",
+      "desc": "Indispensable au mineur.",
+      "icone": [
+        1,
+        32
+      ],
+      "cat": 3,
+      "rarete": 1,
+      "prix": 300,
+      "poids": 40,
+      "equip": {
+        "slot": 6
+      },
+      "modele": 0
+    },
+    {
+      "id": 102,
+      "nom": "Hache de bûcheron",
+      "desc": "Lourde et bien affûtée.",
+      "icone": [
+        1,
+        33
+      ],
+      "cat": 3,
+      "rarete": 1,
+      "prix": 300,
+      "poids": 40,
+      "equip": {
+        "slot": 6
+      },
+      "modele": 1
+    },
+    {
+      "id": 103,
+      "nom": "Serpe d'herboriste",
+      "desc": "Coupe net sans abîmer la plante.",
+      "icone": [
+        1,
+        34
+      ],
+      "cat": 3,
+      "rarete": 1,
+      "prix": 200,
+      "poids": 15,
+      "equip": {
+        "slot": 6
+      },
+      "modele": 2
+    },
+    {
+      "id": 104,
+      "nom": "Marteau de forge",
+      "desc": "L'outil du forgeron.",
+      "icone": [
+        1,
+        35
+      ],
+      "cat": 3,
+      "rarete": 1,
+      "prix": 350,
+      "poids": 35,
+      "equip": {
+        "slot": 6
+      },
+      "modele": 3
+    },
+    {
+      "id": 142,
+      "nom": "Épée de fer",
+      "desc": "Lame simple forgée à Feltsura.",
+      "icone": [
+        1,
+        64
+      ],
+      "cat": 1,
+      "rarete": 1,
+      "prix": 1200,
+      "poids": 30,
+      "equip": {
+        "slot": 5,
+        "niveau": 5
+      },
+      "bonus": [
+        [
+          1,
+          3
+        ]
+      ],
+      "modele": 4
+    },
+    {
+      "id": 143,
+      "nom": "Épée de fer trempé",
+      "desc": "Le fil tient deux fois plus longtemps.",
+      "icone": [
+        1,
+        65
+      ],
+      "cat": 1,
+      "rarete": 2,
+      "prix": 2600,
+      "poids": 30,
+      "equip": {
+        "slot": 5,
+        "niveau": 12,
+        "metier": [
+          1,
+          10
+        ]
+      },
+      "bonus": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "modele": 4
+    },
+    {
+      "id": 150,
+      "nom": "Casque de fer",
+      "desc": "Protège des coups et de la pluie.",
+      "icone": [
+        1,
+        72
+      ],
+      "cat": 2,
+      "rarete": 1,
+      "prix": 900,
+      "poids": 25,
+      "equip": {
+        "slot": 1,
+        "niveau": 5
+      },
+      "bonus": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 151,
+      "nom": "Tunique de cuir",
+      "desc": "Légère et souple.",
+      "icone": [
+        1,
+        73
+      ],
+      "cat": 2,
+      "rarete": 1,
+      "prix": 600,
+      "poids": 15,
+      "equip": {
+        "slot": 2
+      },
+      "bonus": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 301,
+      "nom": "Pain de seigle",
+      "desc": "Rend un peu d'endurance.",
+      "icone": [
+        1,
+        96
+      ],
+      "cat": 5,
+      "rarete": 1,
+      "pile": 20,
+      "prix": 12,
+      "effet": {
+        "type": "endurance",
+        "valeur": 20
+      }
+    },
+    {
+      "id": 302,
+      "nom": "Potion de sauge",
+      "desc": "Soigne une blessure légère.",
+      "icone": [
+        1,
+        97
+      ],
+      "cat": 5,
+      "rarete": 1,
+      "pile": 10,
+      "prix": 80,
+      "effet": {
+        "type": "soinBlessure",
+        "etatMax": 2
+      }
+    },
+    {
+      "id": 303,
+      "nom": "Élixir de l'artisan",
+      "desc": "+15 % de réussite en artisanat pendant 30 minutes.",
+      "icone": [
+        1,
+        98
+      ],
+      "cat": 5,
+      "rarete": 3,
+      "pile": 5,
+      "prix": 400,
+      "effet": {
+        "type": "buff",
+        "stat": "fabrication",
+        "valeur": 15,
+        "duree": 1800
+      }
+    },
+    {
+      "id": 304,
+      "nom": "Infusion du voyageur",
+      "desc": "+20 % d'XP pendant 1 heure.",
+      "icone": [
+        1,
+        99
+      ],
+      "cat": 5,
+      "rarete": 2,
+      "pile": 5,
+      "prix": 250,
+      "effet": {
+        "type": "buff",
+        "stat": "xp",
+        "valeur": 20,
+        "duree": 3600
+      }
+    },
+    {
+      "id": 401,
+      "nom": "Clé de la mine",
+      "desc": "Ouvre la galerie profonde.",
+      "icone": [
+        1,
+        128
+      ],
+      "cat": 7,
+      "rarete": 2,
+      "echange": false,
+      "prix": 0
+    },
+    {
+      "id": 402,
+      "nom": "Grand sac",
+      "desc": "Ajoute 20 cases à l'inventaire.",
+      "icone": [
+        1,
+        129
+      ],
+      "cat": 8,
+      "rarete": 2,
+      "pile": 1,
+      "prix": 3000,
+      "effet": {
+        "type": "inventaire",
+        "valeur": 20
+      }
+    },
+    {
+      "id": 403,
+      "nom": "Parchemin : épée trempée",
+      "desc": "Apprend la recette de l'épée de fer trempé.",
+      "icone": [
+        1,
+        130
+      ],
+      "cat": 6,
+      "rarete": 2,
+      "prix": 1500,
+      "effet": {
+        "type": "recette",
+        "recette": 6
+      }
+    }
+  ],
+  "metiers": [
+    {
+      "id": 1,
+      "nom": "Forgeron",
+      "type": "artisanat",
+      "icone": [
+        1,
+        200
+      ],
+      "desc": "Travaille le métal pour les armes, armures et outils.",
+      "niveauMax": 50,
+      "xpBase": 80,
+      "xpFacteur": 1.12,
+      "pnj": 12,
+      "rangs": [
+        {
+          "nom": "Apprenti",
+          "niveau": 1
+        },
+        {
+          "nom": "Initié",
+          "niveau": 10
+        },
+        {
+          "nom": "Confirmé",
+          "niveau": 20
+        },
+        {
+          "nom": "Expert",
+          "niveau": 35
+        },
+        {
+          "nom": "Maître",
+          "niveau": 50
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Mineur",
+      "type": "recolte",
+      "icone": [
+        1,
+        201
+      ],
+      "desc": "Extrait le minerai et le charbon.",
+      "niveauMax": 50,
+      "xpBase": 60,
+      "xpFacteur": 1.12,
+      "pnj": 14,
+      "rangs": [
+        {
+          "nom": "Apprenti",
+          "niveau": 1
+        },
+        {
+          "nom": "Initié",
+          "niveau": 10
+        },
+        {
+          "nom": "Confirmé",
+          "niveau": 20
+        },
+        {
+          "nom": "Expert",
+          "niveau": 35
+        },
+        {
+          "nom": "Maître",
+          "niveau": 50
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Bûcheron",
+      "type": "recolte",
+      "icone": [
+        1,
+        202
+      ],
+      "desc": "Abat les arbres et taille le bois.",
+      "niveauMax": 50,
+      "xpBase": 60,
+      "xpFacteur": 1.12,
+      "pnj": 14,
+      "rangs": [
+        {
+          "nom": "Apprenti",
+          "niveau": 1
+        },
+        {
+          "nom": "Initié",
+          "niveau": 10
+        },
+        {
+          "nom": "Confirmé",
+          "niveau": 20
+        },
+        {
+          "nom": "Expert",
+          "niveau": 35
+        },
+        {
+          "nom": "Maître",
+          "niveau": 50
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Herboriste",
+      "type": "artisanat",
+      "icone": [
+        1,
+        203
+      ],
+      "desc": "Cueille les plantes et prépare remèdes et potions.",
+      "niveauMax": 50,
+      "xpBase": 70,
+      "xpFacteur": 1.12,
+      "pnj": 15,
+      "rangs": [
+        {
+          "nom": "Apprenti",
+          "niveau": 1
+        },
+        {
+          "nom": "Initié",
+          "niveau": 10
+        },
+        {
+          "nom": "Confirmé",
+          "niveau": 20
+        },
+        {
+          "nom": "Expert",
+          "niveau": 35
+        },
+        {
+          "nom": "Maître",
+          "niveau": 50
+        }
+      ]
+    }
+  ],
+  "recettes": [
+    {
+      "id": 1,
+      "metier": 1,
+      "niveau": 1,
+      "station": 1,
+      "ingredients": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "resultat": [
+        4,
+        1
+      ],
+      "taux": 95,
+      "statBonus": [
+        1,
+        1
+      ],
+      "perteEchec": 50,
+      "deblocage": "depart",
+      "xp": 10
+    },
+    {
+      "id": 2,
+      "metier": 3,
+      "niveau": 1,
+      "station": 2,
+      "ingredients": [
+        [
+          3,
+          1
+        ]
+      ],
+      "resultat": [
+        5,
+        2
+      ],
+      "taux": 95,
+      "perteEchec": 50,
+      "deblocage": "depart",
+      "xp": 8
+    },
+    {
+      "id": 3,
+      "metier": 1,
+      "niveau": 5,
+      "station": 1,
+      "ingredients": [
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "resultat": [
+        142,
+        1
+      ],
+      "taux": 80,
+      "statBonus": [
+        1,
+        1
+      ],
+      "perteEchec": 50,
+      "deblocage": "depart",
+      "xp": 40
+    },
+    {
+      "id": 4,
+      "metier": 1,
+      "niveau": 5,
+      "station": 1,
+      "ingredients": [
+        [
+          4,
+          3
+        ]
+      ],
+      "resultat": [
+        150,
+        1
+      ],
+      "taux": 80,
+      "statBonus": [
+        1,
+        1
+      ],
+      "perteEchec": 50,
+      "deblocage": "pnj",
+      "prix": 500,
+      "xp": 35
+    },
+    {
+      "id": 5,
+      "metier": 4,
+      "niveau": 1,
+      "station": 3,
+      "ingredients": [
+        [
+          6,
+          3
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "resultat": [
+        302,
+        1
+      ],
+      "taux": 90,
+      "statBonus": [
+        4,
+        1
+      ],
+      "perteEchec": 100,
+      "deblocage": "depart",
+      "xp": 15
+    },
+    {
+      "id": 6,
+      "metier": 1,
+      "niveau": 10,
+      "station": 1,
+      "ingredients": [
+        [
+          142,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "resultat": [
+        143,
+        1
+      ],
+      "taux": 65,
+      "statBonus": [
+        1,
+        2
+      ],
+      "perteEchec": 50,
+      "deblocage": "decouverte",
+      "chanceDecouverte": 5,
+      "xp": 90
+    },
+    {
+      "id": 7,
+      "metier": 4,
+      "niveau": 15,
+      "station": 3,
+      "ingredients": [
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "resultat": [
+        303,
+        1
+      ],
+      "taux": 60,
+      "statBonus": [
+        4,
+        2
+      ],
+      "perteEchec": 100,
+      "deblocage": "decouverte",
+      "chanceDecouverte": 3,
+      "xp": 120
+    }
+  ],
+  "quetes": [
+    {
+      "id": 1,
+      "nom": "Premiers pas à Feltsura",
+      "type": "principale",
+      "desc": "Présente-toi à Gertrude, la banquière de la cité.",
+      "objectifs": [
+        {
+          "t": "parler",
+          "pnj": 13
+        }
+      ],
+      "recompenses": {
+        "xp": 50,
+        "argent": 200
+      },
+      "sources": [
+        11
+      ],
+      "repetition": "unique"
+    },
+    {
+      "id": 2,
+      "nom": "Le fer du vieux Bran",
+      "type": "metier",
+      "desc": "Bran manque de minerai pour honorer ses commandes.",
+      "conditions": {
+        "niveau": 2,
+        "quete": 1
+      },
+      "objectifs": [
+        {
+          "t": "apporter",
+          "objet": 1,
+          "n": 10
+        },
+        {
+          "t": "parler",
+          "pnj": 12
+        }
+      ],
+      "recompenses": {
+        "xp": 200,
+        "xpMetier": [
+          2,
+          150
+        ],
+        "argent": 500,
+        "objets": [
+          [
+            101,
+            1
+          ]
+        ],
+        "reputation": [
+          1,
+          50
+        ]
+      },
+      "sources": [
+        12
+      ],
+      "repetition": "unique"
+    },
+    {
+      "id": 3,
+      "nom": "Ta première lame",
+      "type": "metier",
+      "desc": "Forge une épée de fer sous l'œil de Bran.",
+      "conditions": {
+        "metier": [
+          1,
+          5
+        ],
+        "quete": 2
+      },
+      "objectifs": [
+        {
+          "t": "fabriquer",
+          "objet": 142,
+          "n": 1
+        }
+      ],
+      "recompenses": {
+        "xp": 300,
+        "xpMetier": [
+          1,
+          250
+        ],
+        "recette": 4
+      },
+      "sources": [
+        12
+      ],
+      "repetition": "unique"
+    },
+    {
+      "id": 4,
+      "nom": "Bois pour l'hiver",
+      "type": "repetable",
+      "desc": "La garde a besoin de bois pour les braseros.",
+      "objectifs": [
+        {
+          "t": "apporter",
+          "objet": 3,
+          "n": 20
+        }
+      ],
+      "recompenses": {
+        "xp": 80,
+        "argent": 250,
+        "reputation": [
+          2,
+          20
+        ]
+      },
+      "sources": [
+        11
+      ],
+      "repetition": "quotidienne"
+    },
+    {
+      "id": 5,
+      "nom": "Fleurs de lune",
+      "type": "secondaire",
+      "desc": "L'herboriste cherche des fleurs qui ne s'ouvrent que la nuit.",
+      "conditions": {
+        "metier": [
+          4,
+          10
+        ]
+      },
+      "objectifs": [
+        {
+          "t": "recolter",
+          "objet": 7,
+          "n": 3
+        }
+      ],
+      "recompenses": {
+        "xp": 250,
+        "xpMetier": [
+          4,
+          200
+        ],
+        "objets": [
+          [
+            303,
+            1
+          ]
+        ]
+      },
+      "sources": [
+        15
+      ],
+      "repetition": "hebdomadaire",
+      "meteo": {
+        "heure": [
+          20,
+          6
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "nom": "La galerie profonde",
+      "type": "secondaire",
+      "desc": "Atteins le fond de la vieille mine.",
+      "conditions": {
+        "niveau": 10
+      },
+      "objectifs": [
+        {
+          "t": "aller",
+          "lieu": 3
+        }
+      ],
+      "recompenses": {
+        "xp": 400,
+        "teleport": 3,
+        "hautFait": 4
+      },
+      "sources": [
+        14
+      ],
+      "repetition": "unique"
+    },
+    {
+      "id": 7,
+      "nom": "Fête des moissons",
+      "type": "evenement",
+      "desc": "Aide à préparer la fête. Un Maître du jeu valide ta participation.",
+      "objectifs": [
+        {
+          "t": "valider"
+        }
+      ],
+      "recompenses": {
+        "xp": 150,
+        "argent": 300
+      },
+      "sources": [
+        11
+      ],
+      "repetition": "unique",
+      "actif": false,
+      "debut": 0,
+      "fin": 0
+    }
+  ],
+  "quetesDuJour": [
+    4
+  ],
+  "hautsFaits": [
+    {
+      "id": 1,
+      "nom": "Citoyen de Feltsura",
+      "desc": "Termine la quête d'accueil.",
+      "icone": [
+        2,
+        0
+      ],
+      "cache": false,
+      "condition": {
+        "t": "quete",
+        "quete": 1
+      },
+      "recompense": {
+        "titre": "Citoyen",
+        "points": 5
+      }
+    },
+    {
+      "id": 2,
+      "nom": "Main de fer",
+      "desc": "Atteins le niveau 20 de forgeron.",
+      "icone": [
+        2,
+        1
+      ],
+      "cache": false,
+      "condition": {
+        "t": "metier",
+        "metier": 1,
+        "niveau": 20
+      },
+      "recompense": {
+        "titre": "Forgeron confirmé",
+        "points": 20
+      }
+    },
+    {
+      "id": 3,
+      "nom": "Fidèle",
+      "desc": "Connecte-toi 30 jours.",
+      "icone": [
+        2,
+        2
+      ],
+      "cache": false,
+      "condition": {
+        "t": "jours",
+        "n": 30
+      },
+      "recompense": {
+        "argent": 2000,
+        "points": 15
+      }
+    },
+    {
+      "id": 4,
+      "nom": "Sous la montagne",
+      "desc": "???",
+      "icone": [
+        2,
+        3
+      ],
+      "cache": true,
+      "condition": {
+        "t": "lieu",
+        "lieu": 3
+      },
+      "recompense": {
+        "titre": "Explorateur des profondeurs",
+        "points": 10
+      }
+    }
+  ],
+  "dialogues": [
+    {
+      "id": 1,
+      "pnj": 12,
+      "debut": 1,
+      "noeuds": [
+        {
+          "id": 1,
+          "texte": "Ah, un nouveau visage. Tu cherches du travail ?",
+          "reponses": [
+            {
+              "texte": "Je veux apprendre la forge.",
+              "vers": 2,
+              "conditions": {
+                "niveau": 2
+              }
+            },
+            {
+              "texte": "Tu as besoin d'aide ?",
+              "action": {
+                "t": "quete",
+                "quete": 2
+              }
+            },
+            {
+              "texte": "Montre-moi ce que tu vends.",
+              "action": {
+                "t": "boutique"
+              }
+            },
+            {
+              "texte": "Au revoir.",
+              "action": {
+                "t": "fermer"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "texte": "Le métal ne pardonne pas. Je t'inscris ?",
+          "reponses": [
+            {
+              "texte": "Oui.",
+              "action": {
+                "t": "metier",
+                "metier": 1
+              }
+            },
+            {
+              "texte": "Pas maintenant.",
+              "vers": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pnj": 13,
+      "debut": 1,
+      "noeuds": [
+        {
+          "id": 1,
+          "texte": "Bienvenue au coffre de Feltsura.",
+          "reponses": [
+            {
+              "texte": "Ouvrir mon coffre.",
+              "action": {
+                "t": "banque"
+              }
+            },
+            {
+              "texte": "Au revoir.",
+              "action": {
+                "t": "fermer"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "des": {
+    "types": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      20,
+      100
+    ],
+    "personnalises": [
+      {
+        "id": 1,
+        "nom": "Dé du destin",
+        "faces": [
+          "Échec",
+          "Mitigé",
+          "Réussite"
+        ]
+      }
+    ],
+    "statBonus": true,
+    "portee": 10
+  },
+  "blessures": [
+    {
+      "id": 0,
+      "nom": "Indemne"
+    },
+    {
+      "id": 1,
+      "nom": "Blessé léger",
+      "vitesse": 90,
+      "endurance": 80,
+      "guerison": 1800
+    },
+    {
+      "id": 2,
+      "nom": "Blessé grave",
+      "vitesse": 60,
+      "endurance": 50,
+      "recolte": false,
+      "fabrication": false,
+      "guerison": 7200
+    },
+    {
+      "id": 3,
+      "nom": "Inconscient",
+      "vitesse": 0,
+      "guerison": 0
+    }
+  ],
+  "marchands": [
+    {
+      "id": 1,
+      "nom": "Ysolde la colporteuse",
+      "jours": [
+        5,
+        6
+      ],
+      "heures": [
+        10,
+        22
+      ],
+      "stock": [
+        {
+          "objet": 403,
+          "prix": 1500,
+          "maxParJoueur": 1
+        },
+        {
+          "objet": 402,
+          "prix": 2800,
+          "maxParJoueur": 1
+        },
+        {
+          "objet": 7,
+          "prix": 140,
+          "maxParJoueur": 5
+        }
+      ]
+    }
+  ],
+  "guide": [
+    {
+      "id": 1,
+      "categorie": "Règles",
+      "titre": "Règlement du serveur",
+      "texte": "Respecte le RP des autres. Le HRP se signale sur la plaque RP."
+    },
+    {
+      "id": 2,
+      "categorie": "Débuter",
+      "titre": "Ouvrir le Sac et le Journal",
+      "texte": "En VR, approche la main de ton épaule puis appuie sur la gâchette. Sur PC, touche Tab."
+    },
+    {
+      "id": 3,
+      "categorie": "Débuter",
+      "titre": "Voyager entre les maps",
+      "texte": "Ouvre le Passeport dans le Journal, choisis « Partir en voyage » et copie le code."
+    },
+    {
+      "id": 4,
+      "categorie": "Métiers",
+      "titre": "Choisir ses métiers",
+      "texte": "Tu peux exercer jusqu'à 3 métiers. Parle au maître de métier pour t'inscrire."
+    },
+    {
+      "id": 5,
+      "categorie": "Économie",
+      "titre": "L'hôtel des ventes",
+      "texte": "Les prix changent chaque jour. Le marché rachète toujours moins cher qu'il ne revend."
+    }
+  ],
+  "grades": [
+    {
+      "id": 0,
+      "nom": "Fondateur",
+      "couleur": "#E5B53A",
+      "rang": 100,
+      "perms": [
+        "*"
+      ]
+    },
+    {
+      "id": 1,
+      "nom": "Administrateur",
+      "couleur": "#E0533D",
+      "rang": 90,
+      "perms": [
+        "univers",
+        "objets",
+        "metiers",
+        "quetes",
+        "pnj",
+        "marche",
+        "carte",
+        "guide",
+        "joueurs",
+        "grades",
+        "evenements",
+        "publication",
+        "moderation"
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Maître du jeu",
+      "couleur": "#7A5CE0",
+      "rang": 50,
+      "perms": [
+        "quetes",
+        "evenements",
+        "pnj",
+        "perso.pnj",
+        "moderation",
+        "des.secret"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Animateur",
+      "couleur": "#3DA5E0",
+      "rang": 40,
+      "perms": [
+        "evenements",
+        "perso.pnj"
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Économiste",
+      "couleur": "#4CAF50",
+      "rang": 30,
+      "perms": [
+        "marche"
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Joueur",
+      "couleur": "#B0B0B0",
+      "rang": 0,
+      "perms": []
+    }
+  ],
+  "registre": [
+    {
+      "pseudo": "Skyppi Fox",
+      "grade": 1
+    }
+  ],
+  "revoques": [],
+  "annonces": [
+    {
+      "id": 1,
+      "type": "bandeau",
+      "texte": "Bienvenue sur Dualis — version de test.",
+      "debut": 26265600,
+      "duree": 604800
+    }
+  ],
+  "maps": {
+    "1": {
+      "nom": "Feltsura — Cité",
+      "regions": [
+        {
+          "id": 1,
+          "nom": "Cité haute",
+          "carte": [
+            0.42,
+            0.35
+          ]
+        },
+        {
+          "id": 2,
+          "nom": "Forêt de Brume",
+          "carte": [
+            0.7,
+            0.6
+          ]
+        },
+        {
+          "id": 3,
+          "nom": "Vieille mine",
+          "carte": [
+            0.2,
+            0.75
+          ]
+        }
+      ],
+      "pnj": [
+        {
+          "slot": 0,
+          "id": 11,
+          "nom": "Tableau de la cité",
+          "role": "tableau"
+        },
+        {
+          "slot": 1,
+          "id": 12,
+          "nom": "Bran",
+          "role": "maitre",
+          "metier": 1,
+          "vend": {
+            "recettes": [
+              4
+            ],
+            "objets": [
+              104
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "id": 13,
+          "nom": "Gertrude",
+          "role": "banquier"
+        },
+        {
+          "slot": 3,
+          "id": 14,
+          "nom": "Odo",
+          "role": "maitre",
+          "metier": 2,
+          "vend": {
+            "objets": [
+              101,
+              102
+            ]
+          }
+        },
+        {
+          "slot": 4,
+          "id": 15,
+          "nom": "Maëlle",
+          "role": "maitre",
+          "metier": 4,
+          "vend": {
+            "objets": [
+              103,
+              8
+            ]
+          },
+          "horaires": [
+            8,
+            20
+          ]
+        },
+        {
+          "slot": 5,
+          "id": 16,
+          "nom": "Courtier",
+          "role": "marche"
+        }
+      ],
+      "teleports": [
+        {
+          "slot": 0,
+          "id": 1,
+          "nom": "Place du marché",
+          "region": 1,
+          "cout": 0,
+          "delai": 60
+        },
+        {
+          "slot": 1,
+          "id": 2,
+          "nom": "Lisière de Brume",
+          "region": 2,
+          "cout": 50,
+          "delai": 60,
+          "conditions": {
+            "visite": true
+          }
+        },
+        {
+          "slot": 2,
+          "id": 3,
+          "nom": "Fond de la mine",
+          "region": 3,
+          "cout": 100,
+          "delai": 120,
+          "conditions": {
+            "quete": 6
+          }
+        }
+      ],
+      "lieux": [
+        {
+          "slot": 0,
+          "id": 3,
+          "nom": "Fond de la mine"
+        }
+      ],
+      "activites": [
+        {
+          "slot": 0,
+          "metier": 2,
+          "outil": 101,
+          "niveau": 1,
+          "butin": [
+            [
+              1,
+              1,
+              3,
+              100
+            ],
+            [
+              2,
+              0,
+              2,
+              60
+            ]
+          ],
+          "xp": 10,
+          "reapparition": 120,
+          "minijeu": "timing"
+        },
+        {
+          "slot": 1,
+          "metier": 3,
+          "outil": 102,
+          "niveau": 1,
+          "butin": [
+            [
+              3,
+              1,
+              3,
+              100
+            ]
+          ],
+          "xp": 10,
+          "reapparition": 120,
+          "minijeu": "timing"
+        },
+        {
+          "slot": 2,
+          "metier": 4,
+          "outil": 103,
+          "niveau": 1,
+          "butin": [
+            [
+              6,
+              1,
+              4,
+              100
+            ]
+          ],
+          "xp": 8,
+          "reapparition": 90,
+          "minijeu": "precision"
+        },
+        {
+          "slot": 3,
+          "metier": 4,
+          "outil": 103,
+          "niveau": 10,
+          "butin": [
+            [
+              7,
+              1,
+              1,
+              100
+            ]
+          ],
+          "xp": 40,
+          "reapparition": 600,
+          "minijeu": "precision",
+          "meteo": {
+            "heure": [
+              20,
+              6
+            ]
+          }
+        }
+      ],
+      "stations": [
+        {
+          "slot": 0,
+          "station": 1
+        },
+        {
+          "slot": 1,
+          "station": 2
+        },
+        {
+          "slot": 2,
+          "station": 3
+        }
+      ],
+      "marchands": [
+        {
+          "marchand": 1,
+          "slots": [
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  }
+}
